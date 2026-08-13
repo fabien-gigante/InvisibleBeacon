@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.fabien_gigante.alternatebeaconrendering.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"BeaconBlockEntityMixin", "TintedGlassBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
