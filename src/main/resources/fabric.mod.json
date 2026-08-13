@@ -1,32 +1,24 @@
 {
 	"schemaVersion": 1,
-	"id": "alternatebeaconrendering",
+	"id": "invisible-beacon",
 	"version": "${version}",
-	"name": "Alternate Beacon Rendering",
+	"name": "Invisible Beacon",
 	"description": "Tinted glass no longer stops beacon beams, but makes the beam invisible above it.",
 	"authors": [
 		"Fabien Gigante",
 		"Mumbo Jumbo (idea)"
 	],
 	"contact": {
-		"homepage": "https://example.com",
-		"sources": "https://example.com/alternate-beacon-rendering"
+		"homepage": "https://github.com/fabien-gigante/InvisibleBeacon",
+		"sources": "https://github.com/fabien-gigante/InvisibleBeacon"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/alternatebeaconrendering/icon.png",
+	"icon": "assets/invisible-beacon/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.fabien_gigante.alternatebeaconrendering.AlternateBeaconRendering"
-		],
-		"client": [
-			"com.fabien_gigante.alternatebeaconrendering.AlternateBeaconRenderingClient"
-		]
-	},
 	"mixins": [
-		"alternatebeaconrendering.mixins.json",
+		"invisible-beacon.mixins.json",
 		{
-			"config": "alternatebeaconrendering.client.mixins.json",
+			"config": "invisible-beacon.client.mixins.json",
 			"environment": "client"
 		}
 	],

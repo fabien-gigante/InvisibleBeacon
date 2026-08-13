@@ -10,4 +10,4 @@ pluginManagement {
 }
 
 // Should match your modid
-rootProject.name = 'alternate-beacon-rendering'
+rootProject.name = 'invisible-beacon'

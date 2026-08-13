@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.fabien_gigante.alternatebeaconrendering.mixin",
+	"package": "com.fabien_gigante.invisible_beacon.mixin.client",
 	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-		"BeaconBlockEntityMixin", "TintedGlassBlockMixin"
+	"client": [
+		"BeaconRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

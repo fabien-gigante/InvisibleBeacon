@@ -1,4 +1,4 @@
-package com.fabien_gigante.alternatebeaconrendering.mixin;
+package com.fabien_gigante.invisible_beacon.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.jetbrains.annotations.Nullable;

@@ -1,4 +1,4 @@
-package com.fabien_gigante.alternatebeaconrendering.mixin;
+package com.fabien_gigante.invisible_beacon.mixin;
 
 import net.minecraft.util.ARGB;
 import net.minecraft.world.item.DyeColor;

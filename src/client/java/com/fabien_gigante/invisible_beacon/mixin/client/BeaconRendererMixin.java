@@ -1,4 +1,4 @@
-package com.fabien_gigante.alternatebeaconrendering.mixin.client;
+package com.fabien_gigante.invisible_beacon.mixin.client;
 
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.blockentity.BeaconRenderer;
