@@ -1,3 +1,4 @@
+![Icon](./src/main/resources/assets/invisible-beacon/icon.png)
 # Invisible Beacon
 
 Changes how tinted glass interacts with beacon beams.
